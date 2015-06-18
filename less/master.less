@@ -1,0 +1,73 @@
+@import 'color.less';
+@import 'pagenavi.less';
+@import 'nav.less';
+@import 'header.less';
+@import 'spacing.less';
+@import 'footer.less';
+@import 'bootstrap.less';
+@import 'home.less';
+@import 'wpcore.less';
+@import 'comments.less';
+@import 'typography.less';
+
+body {
+	font-size: 17px;
+	background: @dblue;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.wrapper {
+	background: white;
+	padding: 60px 0 130px;
+}
+
+.grey-box {
+	padding: 20px;
+	background: fade(@teal, 10%);
+}
+
+.band {
+	padding: 25px 0;
+}
+
+hr.band-divider {
+	margin: 0;
+}
+
+.search-page-search {
+	height: 38px;
+}
+
+.filter-box {
+	background-color: #f8f8f8;
+	padding: 25px 25px 20px;
+	h3 {
+		padding-top: 0;
+		margin-top: 0;
+	}
+	a {
+		color: lighten(@teal, 10%);
+		&:hover, &.active {
+			color: lighten(@teal, 4%);
+			text-decoration: underline;
+		}
+	}
+}
+
+.single-meta {
+	font-weight: 600;
+	margin-top: 20px;
+	margin-bottom: -10px;
+	color: @teal;
+	a.boxed {
+		background: @teal;
+		color: white;
+		display: inline-block;
+		padding: 1px 7px;
+		margin-right: 3px;
+		&:hover, &:focus, &:active {
+			background: darken(@teal, 3%);
+			text-decoration: none;
+		}
+	}
+}

@@ -1,0 +1,26 @@
+// * make sure page navi styling is switched off in the plugin's settings
+
+.wp-pagenavi {
+	margin: 40px 0;
+	color: white;
+	font-size: 1em;
+	span {
+		background: #999;
+		border: none;
+	}
+	a {
+		background: @teal;
+		border-color: darken(@teal, 5%);
+		color: white;
+		&:hover {
+			background: darken(@teal, 10%);
+			text-decoration: none;
+		}
+	}
+	span, a {
+		padding: 7px 10px;
+		margin-right: 4px;
+		display: inline-block;
+		margin-bottom: 5px;
+	}
+}

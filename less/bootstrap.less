@@ -1,0 +1,44 @@
+.media {
+	padding: 10px 0;
+	img {
+		margin-right: 20px;
+	}
+	p {
+		margin: 0;
+	}
+	.meta {
+		font-weight: 600;
+		margin: 5px 0;
+	}
+}
+
+ul {
+	padding-left: 17px;
+	li {
+		margin-bottom: 8px;
+	}
+
+}
+
+.btn {
+	border-radius: 0;
+	font-weight: 600;
+	font-size: 17px;
+	&.btn-primary {
+		background-color: @orange;
+		border: 1px solid @orange;
+		&:hover, &:active, &:focus {
+			background-color: darken(@orange, 5%);
+		}
+	}
+}
+
+.form-control {
+	border-radius: 0;
+}
+
+@media (max-width: 767px) {
+	.media-left	{
+		display: none;
+	}
+}
