@@ -1,0 +1,43 @@
+.footer {
+	background-color: @dblue;
+	padding: 130px 0 40px 0;
+	color: fade(white, 80%);
+	position: relative;
+	a {
+		color: white;
+		&:hover, &:active, &:focus {
+			color: white;
+			text-decoration: underline;
+		}
+	}
+	.rectangles {
+		background-image: url('../img/rectangles-footer.png');
+		position: absolute;
+		width: 100%;
+		left: 0;
+		height: 186px;
+		top: -74px;
+	}
+}
+
+.social-icon {
+	display: block;
+	background-image: url(../img/opengov-socialicons.png);
+	width: 50px;
+	height: 50px;
+	margin-right: 8px;
+	margin-bottom: 15px;
+	float: left;
+	&.twitter {
+		background-position: 166px 0;
+	}
+	&.email {
+		background-position: 50px 0;
+	}
+	&.forum {
+		background-position: 108px 0;
+	}
+	&.rss {
+		background-position: 0 0;
+	}
+}
