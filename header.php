@@ -30,7 +30,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand visible-xs" href="#">UK Open Government</a>
+				<a class="navbar-brand visible-xs" href="#">Australian Open Government Partnership Network</a>
 			</div>
 			<div id="navbar" class="collapse navbar-collapse">
 				<?php wp_nav_menu($mainnav); ?>
