@@ -15,5 +15,4 @@ Please note that this theme assumes the availability of the following plugins (s
 
 We'd also recommend Akismet, WP Super Cache and a security plugin such as iThemes Security.
 
-[Australia icon by Yohann Berger from the Noun
-Project](https://thenounproject.com/search/?q=Australia&i=203096)
+[Australia icon by Yohann Berger from the Noun Project](https://thenounproject.com/search/?q=Australia&i=203096).
