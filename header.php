@@ -50,7 +50,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col col-sm-5">
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/uk_open_gov_logo.png" alt="UK Open Government" class="logo pull-left img-responsive">
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/australia_silhouette.png" alt="Australian Open Government" class="logo pull-left img-responsive">
 					<h1><span>UK Open</span>Government</h1>
 					<p class="strap">Civil Society Network</p>
 				</div>
