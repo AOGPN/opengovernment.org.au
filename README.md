@@ -1,5 +1,10 @@
 # opengovernment
-Open Government theme developed for Involve/UK Open Government Network
+This is the WordPress theme for the website of
+the Australian Open Government Partnership Network.
+
+It is a fork of
+[the Open Government theme](https://github.com/helpful/opengovernment)
+developed for Involve/UK Open Government Network
 
 Please note that this theme assumes the availability of the following plugins (some premium):
 
