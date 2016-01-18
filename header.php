@@ -51,7 +51,7 @@
 			<div class="row">
 				<div class="col col-sm-5">
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/australia_silhouette.png" alt="Australian Open Government" class="logo pull-left img-responsive">
-					<h1><span>UK Open</span>Government</h1>
+					<h1><span>Australian Open</span> Government Network</h1>
 					<p class="strap">Civil Society Network</p>
 				</div>
 				<div class="col col-sm-7">
