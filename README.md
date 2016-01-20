@@ -1,5 +1,5 @@
 # opengovernment [![Stories in Ready](https://badge.waffle.io/AOGPN/opengovernment.org.au.svg?label=ready&title=Ready)](http://waffle.io/AOGPN/opengovernment.org.au)
-This is the WordPress theme for the website of
+This is the WordPress theme for [the website](https://opengovernment.org.au/) of
 the Australian Open Government Partnership Network.
 
 It is a fork of
