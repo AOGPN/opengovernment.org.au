@@ -4,7 +4,7 @@
 
 function load_css() {
 	wp_enqueue_style ('bootstrap', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css');
-	wp_enqueue_style ('fonts', 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,300italic,400italic,600italic,700italic' );
+	wp_enqueue_style ('fonts', 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,300italic,400italic,600italic,700italic' );
 	wp_enqueue_style ('master', get_stylesheet_directory_uri() . '/css/master.css');
 	wp_enqueue_style ('overrides', get_stylesheet_directory_uri() . '/style.css');
 }
