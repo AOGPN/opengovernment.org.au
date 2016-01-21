@@ -14,7 +14,7 @@ include_once('inc/inc-home.php');
 			<div class="row wide-gutter-row">
 				<?php while ( have_rows('featured_text') ) : the_row(); ?>
 				<div class="col-sm-4 wide-gutter-col text-center">
-					<img src="<?php echo get_sub_field('icon')['sizes']['thumbnail'] ?>" class="img-responsive" alt="" height="" width="">
+					<img src="<?php $icon = get_sub_field('icon'); echo $icon['sizes']['thumbnail'] ?>" class="img-responsive" alt="" height="" width="">
 					<h3><?php echo get_sub_field('title') ?></h3>
 					<p><?php echo get_sub_field('text') ?></p>
 				</div>
