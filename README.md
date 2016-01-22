@@ -16,3 +16,19 @@ Please note that this theme assumes the availability of the following plugins (s
 We'd also recommend Akismet, WP Super Cache and a security plugin such as iThemes Security.
 
 [Australia icon by Yohann Berger from the Noun Project](https://thenounproject.com/search/?q=Australia&i=203096).
+
+## Development
+
+### CSS
+
+The [`master.css`](https://github.com/AOGPN/opengovernment.org.au/blob/master/css/master.css)
+file, the theme’s main CSS file, is generated from [`master.less`](https://github.com/AOGPN/opengovernment.org.au/blob/master/less/master.less)
+using the [*less* CSS pre-processor](http://lesscss.org/).
+
+Make your style changes to the files in the [`less` directory](https://github.com/AOGPN/opengovernment.org.au/blob/master/less/)
+then use *less* to regenerate the `master.css` file with a command like:
+
+    lessc less/master.less css/master.css
+
+Include changes from both the `less` and `css` files when committing your changes.
+See commit 9eb8e60ee45902bc186ba12b73f37d77189b2a3f for example.
