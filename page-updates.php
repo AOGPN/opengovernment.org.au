@@ -51,8 +51,4 @@ get_header(); ?>
 
 <?php $i++; endwhile; endif ?>
 
-<?php 
-	
-get_footer();
-
-?>
+<?php get_footer(); ?>
