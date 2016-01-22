@@ -51,55 +51,6 @@ get_header(); ?>
 
 <?php $i++; endwhile; endif ?>
 
-			
-<?php $i=0; if( have_rows('country_row') ):
-
-    while ( have_rows('country_row') ) : the_row();
-
-        $country = get_term_by('id', get_sub_field('country'), 'countries', ARRAY_A);
-        $countryslug = $country['slug'];
-        $countryname = $country['name'];
-        $description = wpautop(get_sub_field('description'));
-     
-        ?>
-        
-        <div class="band <?php echo $i . ' ' ; if ($i % 2 !== 0) : ?>bg-grey<?php endif ?>">
-	        <div class="container">
-
-		        <div class="row wide-gutter-row">
-			        <div class="col-sm-4 wide-gutter-col">
-				        <h2><?= $countryname ?></h2>
-				        <?= $description ?>
-				        <p><a class="btn btn-primary margin-top-10" href="<?= site_url() . '/countries/' . $country['slug'] ?>">View all</a></p>
-			        </div>
-					<div class="col-sm-8 wide-gutter-col">
-			        <?php
-			        $args = array(
-						'posts_per_page' => 10,
-						'countries' => $country['slug'],
-						'post_type' => 'post',
-					);
-					$the_query = new WP_Query( $args );
-					
-					if ($the_query->have_posts()) : ?>
-					<ul class="list-unstyled margin-top-15 margin-bottom-15">
-						<?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
-				        
-					    <li><strong><a href="<?= get_permalink() ?>"><?php echo get_the_title() ?></a></strong> - <?php echo get_the_date() ?></li>
-						
-						<?php endwhile; ?>
-					</ul>
-					<?php endif; wp_reset_postdata(); ?>
-		        	</div><!--.col-sm-8-->
-				</div><!--.row-->
-        
-	        </div><!--.container-->
-        </div><!--.band-->
-
-    <?php $i++; endwhile;
-
-endif ?>
-			
 <?php 
 	
 get_footer();
