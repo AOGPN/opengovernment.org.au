@@ -123,6 +123,13 @@ a {
   margin: 0;
   padding: 0;
   width: 100%;
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 767px) {
+  .header .row {
+    display: table;
+  }
 }
 .header .row .col {
   display: inline-block;
