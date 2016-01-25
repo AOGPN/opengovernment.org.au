@@ -19,7 +19,7 @@ deliberation and accountability. Formed following the Australian Government’s
 decision to join the Open Government Partnership (OGP), we support this goal
 through information-sharing and working cooperatively to help government set
 and meet ambitious and achievable open government reforms.</p>
-        <a href="http://google.com" class="lead-summary-link btn btn-primary">Read more</a>
+        <a href="/about" class="lead-summary-link btn btn-primary">Read more</a>
       </div>
       <div class="col-sm-4 wide-gutter-col">
         <?php
