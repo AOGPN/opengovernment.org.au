@@ -10,7 +10,7 @@ include_once('inc/inc-home.php');
 <div class="container">
   <div class="band" id="home-introduction">
     <div class="row wide-gutter-row">
-      <div class="col-sm-8 wide-gutter-col">
+      <div class="lead-summary-section col-sm-8 wide-gutter-col">
         <h2>For better, open government</h2>
         <p>The Australian Open Government Partnership Network (AOGPN) is a
 network of individuals and organisations committed to helping governments work
@@ -19,7 +19,7 @@ deliberation and accountability. Formed following the Australian Government’s
 decision to join the Open Government Partnership (OGP), we support this goal
 through information-sharing and working cooperatively to help government set
 and meet ambitious and achievable open government reforms.</p>
-        <p><a href="http://google.com" class="btn btn-primary">Read more</a></p>
+        <a href="http://google.com" class="lead-summary-link btn btn-primary">Read more</a>
       </div>
       <div class="col-sm-4 wide-gutter-col">
         <?php

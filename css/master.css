@@ -408,6 +408,14 @@ ul li {
 .home h2 {
   margin-bottom: 35px;
 }
+.lead-summary-section p {
+  font-size: 21px;
+}
+@media (max-width: 500px) {
+  .lead-summary-section p {
+    font-size: 18px;
+  }
+}
 .home-features {
   padding: 25px;
 }
