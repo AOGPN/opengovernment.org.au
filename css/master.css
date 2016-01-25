@@ -408,6 +408,9 @@ ul li {
 .home h2 {
   margin-bottom: 35px;
 }
+.lead-summary-section h2 {
+  margin-bottom: 10px;
+}
 .lead-summary-section p {
   font-size: 21px;
 }
