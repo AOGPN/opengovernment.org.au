@@ -50,6 +50,10 @@
 	.navbar-header {
 		a.navbar-brand {
 			color: white;
+      @media (max-width: 500px) {
+        height: auto; // override bootstrap to allow long name to wrap
+        max-width: 85%;
+      }
 		}
 	}
 	.nav-search {

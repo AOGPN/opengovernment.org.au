@@ -93,6 +93,12 @@ a {
 .navbar .navbar-header a.navbar-brand {
   color: white;
 }
+@media (max-width: 500px) {
+  .navbar .navbar-header a.navbar-brand {
+    height: auto;
+    max-width: 85%;
+  }
+}
 .navbar .nav-search .form-group {
   position: relative;
   width: 200px;
