@@ -12,7 +12,7 @@ include_once('inc/inc-home.php');
     <div class="row wide-gutter-row">
       <div class="lead-summary-section col-sm-8 wide-gutter-col">
         <h2>For better, open government</h2>
-        <p>The Australian Open Government Partnership Network (AOGPN) is a
+        <p>We are a
 network of individuals and organisations committed to helping governments work
 better by promoting transparency, open government, public participation,
 deliberation and accountability. Formed following the Australian Government’s
