@@ -16,7 +16,7 @@ include_once('inc/inc-home.php');
 network of individuals and organisations committed to helping governments work
 better by promoting transparency, open government, public participation,
 deliberation and accountability. Formed following the Australian Government’s
-decision to join the Open Government Partnership (OGP), we support this goal
+decision to join the Open Government Partnership, we support this goal
 through information-sharing and working cooperatively to help government set
 and meet ambitious and achievable open government reforms.</p>
         <a href="/about" class="lead-summary-link btn btn-primary">Read more</a>
