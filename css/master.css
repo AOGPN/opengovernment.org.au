@@ -419,6 +419,9 @@ ul li {
     font-size: 18px;
   }
 }
+.lead-summary-link {
+  margin: 10px 0 25px;
+}
 .home-features {
   padding: 25px;
 }
