@@ -23,7 +23,7 @@ and meet ambitious and achievable open government reforms.</p>
       </div>
       <div class="col-sm-4 wide-gutter-col">
         <?php
-        $activityposts = array('post_type' => 'post', 'posts_per_page' => 3 );
+        $activityposts = array('post_type' => 'post', 'posts_per_page' => 4 );
         $activity_query = new WP_Query( $activityposts );
         ?>
         <h3>Latest posts</h3>
