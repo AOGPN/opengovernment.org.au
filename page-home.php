@@ -8,7 +8,7 @@ include_once('inc/inc-home.php');
 ?>
 
 <div class="container">
-  <div class="band" id="home-latest-activity">
+  <div class="band" id="home-introduction">
     <div class="row wide-gutter-row">
       <div class="col-sm-8 wide-gutter-col">
         <h2>For better, open government</h2>
