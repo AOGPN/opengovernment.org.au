@@ -6,6 +6,11 @@ It is a fork of
 [the Open Government theme](https://github.com/helpful/opengovernment)
 developed for Involve/UK Open Government Network
 
+We’d like to thank the [UK Open Government Network](http://www.opengovernment.org.uk/)
+and [Helpful Technology](http://www.helpfultechnology.com/)
+for helping groups like us everywhere by allowing [their theme](https://github.com/helpful/opengovernment)
+to be reused.
+
 Please note that this theme assumes the availability of the following plugins (some premium):
 
 - [Advanced Custom Fields Pro](http://www.advancedcustomfields.com/pro/)
