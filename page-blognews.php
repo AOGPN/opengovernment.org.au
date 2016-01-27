@@ -10,7 +10,7 @@ get_header(); include('inc/inc-page-blognews.php');
 <div class="container">
 	<div class="row wide-gutter-row">
 		<div class="col-sm-8 wide-gutter-col">
-			<h1 class="page-heading">News and blog</h1>
+			<h1 class="page-heading"><?php echo get_the_title() ?></h1>
 
 			<?php if ($the_query->have_posts()) : $i=0; while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
 
