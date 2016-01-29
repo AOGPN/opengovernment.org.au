@@ -85,7 +85,7 @@ open government reforms.</p>
 							<?php if (get_sub_field('feature_image')) : ?>
 							<p>
 								<?php if (get_sub_field('feature_link')) : ?><a target="_blank" href="<?php echo get_sub_field('feature_link') ?>"><?php endif ?>
-								<img src="<?php echo get_sub_field('feature_image')['sizes']['tab-feature'] ?>" alt="" class="img-responsive">
+								<img src="<?php $feature_image = get_sub_field('feature_image'); echo $feature_image['sizes']['tab-feature'] ?>" alt="" class="img-responsive">
 								<?php if (get_sub_field('feature_link')) : ?></a><?php endif ?>
 							</p>
 							<?php endif ?>
