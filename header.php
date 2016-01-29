@@ -49,8 +49,8 @@
 	<header class="header">
 		<div class="container">
 			<div class="row">
-				<div class="col col-sm-5">
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/australia_silhouette.png" alt="Australian Open Government" class="logo pull-left img-responsive">
+				<div class="logo-group col col-sm-5">
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/australia_silhouette.png" alt="Australian Open Government" class="pull-left img-responsive">
 					<h1>
 						<span class="network-country">Australian</span>
 						Open Government Partnership

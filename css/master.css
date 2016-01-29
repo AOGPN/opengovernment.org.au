@@ -149,39 +149,6 @@ a {
     display: block;
   }
 }
-.header .logo {
-  width: 90px;
-  height: auto;
-  margin-right: 15px;
-}
-@media (max-width: 767px) {
-  .header .logo {
-    width: 50px;
-  }
-}
-.header h1 {
-  text-transform: uppercase;
-  font-weight: 300;
-  font-size: 1.8em;
-  margin-bottom: 2px;
-  margin-top: 10px;
-}
-@media (max-width: 767px) {
-  .header h1 {
-    font-size: 1.3em;
-  }
-}
-.header h1 .network-country,
-.header h1 .network-area {
-  display: block;
-}
-.header h1 .network-country {
-  font-weight: 600;
-}
-.header h1 .network-area {
-  font-weight: 200;
-  font-size: .8125em;
-}
 .header p {
   margin: 0;
 }
@@ -192,6 +159,39 @@ a {
   left: 0;
   height: 186px;
   bottom: -74px;
+}
+.logo-group img {
+  width: 90px;
+  height: auto;
+  margin-right: 15px;
+}
+@media (max-width: 767px) {
+  .logo-group img {
+    width: 50px;
+  }
+}
+.logo-group h1 {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 1.8em;
+  margin-bottom: 2px;
+  margin-top: 10px;
+}
+@media (max-width: 767px) {
+  .logo-group h1 {
+    font-size: 1.3em;
+  }
+}
+.logo-group h1 .network-country,
+.logo-group h1 .network-area {
+  display: block;
+}
+.logo-group h1 .network-country {
+  font-weight: 600;
+}
+.logo-group h1 .network-area {
+  font-weight: 200;
+  font-size: .8125em;
 }
 .margin-0 {
   margin: 0 !important;
