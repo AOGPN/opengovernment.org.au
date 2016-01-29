@@ -180,7 +180,7 @@ a {
 }
 .header h1 .network-area {
   font-weight: 200;
-  font-size: 18px;
+  font-size: .8125em;
 }
 .header p {
   margin: 0;
