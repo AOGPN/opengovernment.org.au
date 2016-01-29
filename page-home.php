@@ -41,7 +41,7 @@ open government reforms.</p>
 
 	<?php if( have_rows('country_tabs') ): ?>
 	<div class="band" id="home-latest-activity">
-		<h2>Activity around the UK</h2>
+		<h2>Working Groups</h2>
 
 		<div role="tabpanel">
 			<!-- Nav tabs -->
