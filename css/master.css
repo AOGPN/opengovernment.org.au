@@ -162,7 +162,12 @@ a {
 .logo-group {
   display: flex !important;
   justify-content: flex-start;
-  align-items: flex-start;
+  align-items: center;
+}
+@media (max-width: 767px) {
+  .logo-group {
+    align-items: flex-start;
+  }
 }
 .logo-group img {
   width: 90px;
