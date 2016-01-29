@@ -49,7 +49,7 @@
 	<header class="header">
 		<div class="container">
 			<div class="row">
-				<div class="logo-group col col-sm-5">
+				<div class="logo-group col col-md-6 col-lg-7">
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/australia_silhouette.png" alt="Australian Open Government" class="pull-left img-responsive">
 					<h1>
 						<span class="network-country">Australian</span>
@@ -57,8 +57,8 @@
 						<span class="network-area">Civil Society Network</span>
 					</h1>
 				</div>
-				<div class="col col-sm-7">
-					<p class="lead text-right hidden-xs"><?php echo get_bloginfo ( 'description' )?></p>
+				<div class="col col-md-6 col-lg-5">
+					<p class="lead text-right hidden-xs hidden-sm"><?php echo get_bloginfo ( 'description' )?></p>
 				</div>
 			</div>
 			<div class="rectangles"></div>
