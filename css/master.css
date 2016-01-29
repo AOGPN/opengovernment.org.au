@@ -171,14 +171,16 @@ a {
     font-size: 1.3em;
   }
 }
+.header h1 .network-country,
+.header h1 .network-area {
+  display: block;
+}
 .header h1 .network-country {
   font-weight: 600;
-  display: block;
 }
 .header h1 .network-area {
   font-weight: 200;
   font-size: 18px;
-  display: block;
 }
 .header p {
   margin: 0;
