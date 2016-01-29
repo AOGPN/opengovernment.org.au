@@ -160,6 +160,11 @@ a {
   height: 186px;
   bottom: -74px;
 }
+.logo-group {
+  display: flex !important;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
 .logo-group img {
   width: 90px;
   height: auto;
@@ -175,7 +180,7 @@ a {
   font-weight: 300;
   font-size: 1.8em;
   margin-bottom: 2px;
-  margin-top: 10px;
+  margin-top: 0;
 }
 @media (max-width: 767px) {
   .logo-group h1 {
