@@ -168,6 +168,7 @@ a {
   width: 90px;
   height: auto;
   margin-right: 15px;
+  padding-bottom: 20px;
 }
 @media (max-width: 767px) {
   .logo-group img {
