@@ -8,6 +8,8 @@ include_once('inc/inc-home.php');
 ?>
 
 <div class="container">
+
+	<?php if( have_rows('country_tabs') ): ?>
 	<div class="band" id="home-latest-activity">
 		<h2>Activity around the UK</h2>
 
@@ -69,6 +71,7 @@ include_once('inc/inc-home.php');
 
 		</div><!--.tabpanel-->
 	</div><!--.home-latest-activity-->
+	<?php endif ?>
 
   <div class="band" id="home-introduction">
     <div class="row wide-gutter-row">
