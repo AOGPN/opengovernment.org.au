@@ -1,8 +1,17 @@
 # opengovernment [![Stories in Ready](https://badge.waffle.io/AOGPN/opengovernment.org.au.svg?label=ready&title=Ready)](http://waffle.io/AOGPN/opengovernment.org.au)
-This is the WordPress theme for [the website](https://opengovernment.org.au/) of
+
+This is the WordPress theme for [opengovernment.org.au](https://opengovernment.org.au/), the website of
 the Australian Open Government Partnership Network.
 
-It is a fork of
+**[opengovernment.org.au](https://opengovernment.org.au/) helps the Network create ambitious OGP action plan commitments that address the key challenges we face in Australia.**
+
+It does this by:
+
+1. being a workspace for network members to develop and present ambitious action plan commitments
+2. helping people learn about, join and coordinate working groups
+3. attracting and enabling a diverse set of people to join the Network
+
+This theme a fork of
 [the Open Government theme](https://github.com/helpful/opengovernment)
 developed for Involve/UK Open Government Network
 
