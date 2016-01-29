@@ -171,14 +171,14 @@ a {
     font-size: 1.3em;
   }
 }
-.header h1 span {
+.header h1 .network-country {
   font-weight: 600;
   display: block;
 }
-.header p.strap {
+.header h1 .network-area {
   font-weight: 200;
-  text-transform: uppercase;
   font-size: 18px;
+  display: block;
 }
 .header p {
   margin: 0;

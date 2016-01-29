@@ -52,9 +52,9 @@
 				<div class="col col-sm-5">
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/australia_silhouette.png" alt="Australian Open Government" class="logo pull-left img-responsive">
 					<h1>
-						<span>Australian</span>
+						<span class="network-country">Australian</span>
 						Open Government Partnership
-						Civil Society Network
+						<span class="network-area">Civil Society Network</span>
 					</h1>
 				</div>
 				<div class="col col-sm-7">
