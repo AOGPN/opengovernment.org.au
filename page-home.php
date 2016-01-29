@@ -9,6 +9,36 @@ include_once('inc/inc-home.php');
 
 <div class="container">
 
+	<div class="band" id="home-introduction">
+		<div class="row wide-gutter-row">
+			<div class="lead-summary-section col-sm-8 wide-gutter-col">
+				<h2>For better, open government</h2>
+				<p>We are a network of individuals and organisations committed to
+helping governments work better by promoting transparency, open government,
+public participation, deliberation and accountability.
+Formed following the Australian Government’s decision to join the Open
+Government Partnership, we support this goal through information-sharing and
+working cooperatively to help government set and meet ambitious and achievable
+open government reforms.</p>
+				<a href="/about" class="lead-summary-link btn btn-primary">Read more</a>
+			</div>
+			<div class="col-sm-4 wide-gutter-col">
+				<?php
+				$activityposts = array('post_type' => 'post', 'posts_per_page' => 4 );
+				$activity_query = new WP_Query( $activityposts );
+				?>
+				<h3>Latest posts</h3>
+				<?php if ( $activity_query->have_posts() ) : ?>
+				<ul>
+					<?php while ( $activity_query->have_posts() ) : $activity_query->the_post(); ?>
+					<li><a href="<?php echo get_permalink() ?>"><?php echo get_the_title() ?></a></li>
+					<?php endwhile; wp_reset_postdata(); ?>
+				</ul>
+				<?php endif ?>
+			</div>
+		</div>
+	</div><!-- #home-introduction -->
+
 	<?php if( have_rows('country_tabs') ): ?>
 	<div class="band" id="home-latest-activity">
 		<h2>Activity around the UK</h2>
@@ -72,36 +102,6 @@ include_once('inc/inc-home.php');
 		</div><!--.tabpanel-->
 	</div><!--.home-latest-activity-->
 	<?php endif ?>
-
-  <div class="band" id="home-introduction">
-    <div class="row wide-gutter-row">
-      <div class="lead-summary-section col-sm-8 wide-gutter-col">
-        <h2>For better, open government</h2>
-        <p>We are a network of individuals and organisations committed to
-helping governments work better by promoting transparency, open government,
-public participation, deliberation and accountability.
-Formed following the Australian Government’s decision to join the Open
-Government Partnership, we support this goal through information-sharing and
-working cooperatively to help government set and meet ambitious and achievable
-open government reforms.</p>
-        <a href="/about" class="lead-summary-link btn btn-primary">Read more</a>
-      </div>
-      <div class="col-sm-4 wide-gutter-col">
-        <?php
-        $activityposts = array('post_type' => 'post', 'posts_per_page' => 4 );
-        $activity_query = new WP_Query( $activityposts );
-        ?>
-        <h3>Latest posts</h3>
-        <?php if ( $activity_query->have_posts() ) : ?>
-        <ul>
-          <?php while ( $activity_query->have_posts() ) : $activity_query->the_post(); ?>
-          <li><a href="<?php echo get_permalink() ?>"><?php echo get_the_title() ?></a></li>
-          <?php endwhile; wp_reset_postdata(); ?>
-        </ul>
-        <?php endif ?>
-      </div>
-    </div>
-  </div><!-- #home-introduction -->
 
 	<?php if( have_rows('featured_text') ): ?>
 	<div class="band" id="home-features">
