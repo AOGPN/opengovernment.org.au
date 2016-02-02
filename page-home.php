@@ -67,18 +67,6 @@ open government reforms.</p>
 							<p><a href="<?php echo get_sub_field('link') ?>" class="btn btn-primary">Read more</a></p>
 							<?php endif ?>
 						</div>
-						<div class="col-sm-4 wide-gutter-col">
-							<?php if (get_sub_field('feature_image')) : ?>
-							<p>
-								<?php if (get_sub_field('feature_link')) : ?><a target="_blank" href="<?php echo get_sub_field('feature_link') ?>"><?php endif ?>
-								<img src="<?php $feature_image = get_sub_field('feature_image'); echo $feature_image['sizes']['tab-feature'] ?>" alt="" class="img-responsive">
-								<?php if (get_sub_field('feature_link')) : ?></a><?php endif ?>
-							</p>
-							<?php endif ?>
-							<?php if (get_sub_field('feature_text')) : ?>
-							<p><?= get_sub_field('feature_text') ?></p>
-							<?php endif ?>
-						</div>
 					</div>
 				</div><!--.tabpanel-->
 				<?php $i++; endwhile ?>
