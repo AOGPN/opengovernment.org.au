@@ -67,20 +67,6 @@ open government reforms.</p>
 							<p><a href="<?php echo get_sub_field('link') ?>" class="btn btn-primary">Read more</a></p>
 							<?php endif ?>
 						</div>
-						<?php
-							$activityposts = array('post_type' => 'post', 'posts_per_page' => 3, 'countries' => $term->slug );
-							$activity_query = new WP_Query( $activityposts );
-							if ( $activity_query->have_posts() ) :
-						?>
-							<div class="col-sm-4 wide-gutter-col">
-								<h3>Latest posts</h3>
-								<ul>
-									<?php while ( $activity_query->have_posts() ) : $activity_query->the_post(); ?>
-									<li><a href="<?php echo get_permalink() ?>"><?php echo get_the_title() ?></a></li>
-									<?php endwhile; wp_reset_postdata(); ?>
-								</ul>
-							</div>
-						<?php endif ?>
 						<div class="col-sm-4 wide-gutter-col">
 							<?php if (get_sub_field('feature_image')) : ?>
 							<p>
