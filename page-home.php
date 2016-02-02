@@ -60,7 +60,7 @@ open government reforms.</p>
 				<!-- Tab pane -->
 				<div role="tabpanel" class="tab-pane <?php if ($i == 0) : ?>active<?php endif ?>" id="<?php echo $term->slug ?>">
 					<div class="row wide-gutter-row">
-						<div class="wide-gutter-col">
+						<div class="wide-gutter-col lead-summary-section">
 							<h3><?php echo $term->name ?></h3>
 							<p><?php echo get_sub_field('intro_text') ?></p>
 							<?php if (get_sub_field('link')) : ?>
