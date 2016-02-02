@@ -64,7 +64,7 @@ open government reforms.</p>
 							<h3><?php echo $term->name ?></h3>
 							<p><?php echo get_sub_field('intro_text') ?></p>
 							<?php if (get_sub_field('link')) : ?>
-							<p><a href="<?php echo get_permalink(get_sub_field('link')) ?>" class="btn btn-primary">Read more</a></p>
+							<p><a href="<?php echo get_sub_field('link') ?>" class="btn btn-primary">Read more</a></p>
 							<?php endif ?>
 						</div>
 						<?php
