@@ -378,6 +378,17 @@ ul li {
 .btn.btn-primary:focus {
   background-color: #e86013;
 }
+.btn.btn-default {
+  color: #fff;
+  background-color: rgba(0, 102, 102, 0.5);
+  border: 1px solid rgba(0, 102, 102, 0.4);
+  text-shadow: 1px 1px 0 rgba(0, 102, 102, 0.9);
+}
+.btn.btn-default:hover,
+.btn.btn-default:active,
+.btn.btn-default:focus {
+  background: #006666;
+}
 .form-control {
   border-radius: 0;
 }
