@@ -67,21 +67,11 @@
 
 	<div class="wrapper">
 
-		<?php if (!is_front_page() && ( 'post' !== get_post_type() ) && ( 'event' !== get_post_type() ) && ('resource' !== get_post_type() ) && function_exists('bcn_display')) : ?>
+		<?php if (!is_front_page() && ( 'post' !== get_post_type() ) && ('resource' !== get_post_type() ) && function_exists('bcn_display')) : ?>
 		<div class="container">
 			<div class="row wide-gutter-row">
 				<div class="col-sm-8 wide-gutter-col breadcrumb">
 					<?php bcn_display(); ?>
-				</div>
-			</div>
-		</div>
-		<?php endif ?>
-		
-		<?php if ( 'event' == get_post_type() && !is_tax('countries') ) : ?>
-		<div class="container">
-			<div class="row wide-gutter-row">
-				<div class="col-sm-8 wide-gutter-col breadcrumb">
-					<a href="<?= site_url() ?>">Open Gov</a> > <a href="<?= site_url() ?>/events">Events</a> > <?= single_post_title() ?>
 				</div>
 			</div>
 		</div>
