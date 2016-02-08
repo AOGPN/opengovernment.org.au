@@ -81,7 +81,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-offset-2 col-lg-8 breadcrumb">
-					<a href="<?= site_url() ?>">Open Gov</a> > <a href="<?= site_url() ?>/updates">Updates</a> > <?= single_post_title() ?> <?php if (is_category()) { echo single_cat_title( '', true ); }; ?> <?php if (is_tax('countries')) { echo get_queried_object()->name; }; ?>
+					<?php bcn_display(); ?>
 				</div>
 			</div>
 		</div>
