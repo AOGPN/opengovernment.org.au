@@ -29,7 +29,7 @@ open government reforms.</p>
 				?>
 				<h3>Latest posts</h3>
 				<?php if ( $activity_query->have_posts() ) : ?>
-				<ul>
+				<ul class="link-list">
 					<?php while ( $activity_query->have_posts() ) : $activity_query->the_post(); ?>
 					<li><a href="<?php echo get_permalink() ?>"><?php echo get_the_title() ?></a></li>
 					<?php endwhile; wp_reset_postdata(); ?>
