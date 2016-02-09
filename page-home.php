@@ -41,7 +41,14 @@ open government reforms.</p>
 
 	<?php if( have_rows('country_tabs') ): ?>
 	<div class="band" id="home-latest-activity">
-		<h2>Working Groups</h2>
+		<div class="lead-summary-section">
+			<h2>Working Groups</h2>
+			<p>
+				Join a thematic working group in your area of interest. Help create
+				ambitious commitments for Australia's first Open Government Partnership
+				National Action Plan.
+			</p>
+		</div>
 
 		<div role="tabpanel">
 			<!-- Nav tabs -->
