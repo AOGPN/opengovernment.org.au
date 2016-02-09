@@ -27,6 +27,14 @@ a {
   }
 }
 
+// Boost the specificity of the button style over links.
+// We want button links to keep their style no matter their context.
+// This is a hack but “best of a bad bunch”.
+// http://csswizardry.com/2014/07/hacks-for-dealing-with-specificity/
+.btn.btn {
+  text-decoration: none;
+}
+
 .wrapper {
 	background: white;
 	padding: 60px 0 130px;

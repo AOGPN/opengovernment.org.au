@@ -670,6 +670,9 @@ body {
 .footer a {
   text-decoration: underline;
 }
+.btn.btn {
+  text-decoration: none;
+}
 .wrapper {
   background: white;
   padding: 60px 0 130px;
