@@ -5,7 +5,7 @@
 
 	<div class="container">
 		<div class="row wide-gutter-row">
-			<div class="pagecontent col-lg-offset-2 col-lg-8 wide-gutter-col" id="post-<?php the_ID(); ?>">
+			<div class="postcontent col-lg-offset-2 col-lg-8 wide-gutter-col" id="post-<?php the_ID(); ?>">
 				<h1 class="page-heading"><?php single_post_title(); ?></h1>
 				<?php the_content() ?>
 			</div>

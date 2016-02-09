@@ -5,7 +5,7 @@
 
 <div class="container">
 	<div class="row wide-gutter-row">
-		<article class="col-sm-8 wide-gutter-col">
+		<article class="postcontent col-sm-8 wide-gutter-col">
 	        <h1 class="page-heading"><?php echo single_post_title(); ?></h1>
 	        <?php the_content() ?>
 	    </article>

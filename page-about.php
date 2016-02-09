@@ -26,7 +26,7 @@ if( have_rows('page_sections') ):
     while ( have_rows('page_sections') ) : the_row(); ?>
 	
 		<section id="section-<?= $i ?>" class="band <?= $i . ' ' ; if ($i % 2 !== 0) : ?>bg-grey<?php endif ?>">
-			<div class="container">
+			<div class="container postcontent">
 				<div class="row wide-gutter-row">
 					<aside class="col-sm-4 wide-gutter-col">
 						<?php if ($i == '0') : ?><h1 class="page-heading margin-bottom-20"><?= single_post_title() ?></h1>
