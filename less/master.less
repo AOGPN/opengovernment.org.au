@@ -16,6 +16,17 @@ body {
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
+a {
+  .postcontent &,
+  .lead-summary-section &,
+  .breadcrumb &,
+  .link-list &,
+  .media-heading &,
+  .footer & {
+    text-decoration: underline;
+  }
+}
+
 .wrapper {
 	background: white;
 	padding: 60px 0 130px;
@@ -65,6 +76,7 @@ hr.band-divider {
 		display: inline-block;
 		padding: 1px 7px;
 		margin-right: 3px;
+    text-decoration: none;
 		&:hover, &:focus, &:active {
 			background: darken(@teal, 3%);
 			text-decoration: none;

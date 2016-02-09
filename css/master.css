@@ -662,6 +662,14 @@ body {
   background: #005180;
   font-family: 'Source Sans Pro', sans-serif;
 }
+.postcontent a,
+.lead-summary-section a,
+.breadcrumb a,
+.link-list a,
+.media-heading a,
+.footer a {
+  text-decoration: underline;
+}
 .wrapper {
   background: white;
   padding: 60px 0 130px;
@@ -707,6 +715,7 @@ hr.band-divider {
   display: inline-block;
   padding: 1px 7px;
   margin-right: 3px;
+  text-decoration: none;
 }
 .single-meta a.boxed:hover,
 .single-meta a.boxed:focus,
