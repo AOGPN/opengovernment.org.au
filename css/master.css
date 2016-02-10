@@ -445,6 +445,9 @@ ul li {
 .lead-summary-link {
   margin: 10px 0 25px;
 }
+.pm-letter-section {
+  margin-top: .4em;
+}
 .pm-letter-section img {
   float: right;
   margin: 0 0 1em 1em;
