@@ -28,7 +28,7 @@ open government reforms.</p>
 				<p>On 24 November 2015, Prime Minister Malcolm Turnbull wrote to
 the Open Government Partnership Co-Chairs. He announced Australia’s
 renewed commitment to becoming an OGP member
-and launched work towards our first National Action Plan for July 2016.</p>
+and launched work towards our first National Action Plan due July 2016.</p>
 				<p>
 					<a class="btn btn-default" href="https://opengovernment.org.au/2015/11/28/the-prime-ministers-letter-reconfirms-australias-commitment-to-ogp/" title="The Prime Ministers letter reconfirms Australia’s commitment to OGP">
 						View the letter
