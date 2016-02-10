@@ -23,18 +23,16 @@ open government reforms.</p>
 				<a href="/about" class="lead-summary-link btn btn-primary">Read more</a>
 			</div>
 			<div class="col-sm-4 wide-gutter-col">
-				<?php
-				$activityposts = array('post_type' => 'post', 'posts_per_page' => 4 );
-				$activity_query = new WP_Query( $activityposts );
-				?>
-				<h3>Latest posts</h3>
-				<?php if ( $activity_query->have_posts() ) : ?>
-				<ul class="link-list">
-					<?php while ( $activity_query->have_posts() ) : $activity_query->the_post(); ?>
-					<li><a href="<?php echo get_permalink() ?>"><?php echo get_the_title() ?></a></li>
-					<?php endwhile; wp_reset_postdata(); ?>
-				</ul>
-				<?php endif ?>
+				<h3>PM Turnbull commits to the OGP</h3>
+				<p>Announcing the Government’s decisions to join the Open Government Partnership
+in late 2015 Prime Minister Malcolm Turnbull wrote to the OGP stating that its
+goals "directly align with Australia’s long, proud tradition of open
+and transparent government.</p>
+				<p>
+					<a class="btn btn-default" href="https://opengovernment.org.au/2015/11/28/the-prime-ministers-letter-reconfirms-australias-commitment-to-ogp/" title="The Prime Ministers letter reconfirms Australia’s commitment to OGP">
+						View the letter
+					</a>
+				</p>
 			</div>
 		</div>
 	</div><!-- #home-introduction -->
