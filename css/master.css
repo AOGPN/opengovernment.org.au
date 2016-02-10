@@ -445,6 +445,11 @@ ul li {
 .lead-summary-link {
   margin: 10px 0 25px;
 }
+.pm-letter-section img {
+  float: right;
+  margin: 0 0 1em 1em;
+  border: #bbb 1px solid;
+}
 .home-features {
   padding: 25px;
 }
