@@ -381,7 +381,7 @@ ul li {
 .btn.btn-default {
   color: #fff;
   background-color: rgba(0, 102, 102, 0.5);
-  border: 1px solid rgba(0, 102, 102, 0.4);
+  border: 1px solid rgba(0, 102, 102, 0.3);
   text-shadow: 1px 1px 0 rgba(0, 102, 102, 0.9);
 }
 .btn.btn-default:hover,
