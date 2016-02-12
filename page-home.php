@@ -13,7 +13,7 @@ include_once('inc/inc-home.php');
 		<div class="row wide-gutter-row">
 			<div class="lead-summary-section col-sm-8 wide-gutter-col">
 				<h2>For better, open government</h2>
-				<p>Across the globe civil society networks are using
+				<p>Civil society groups around the world are using
 the Open Government Partnership process to achieve real gains in openness,
 accountability and participation.
 We are a diverse civil society coalition working together to create
