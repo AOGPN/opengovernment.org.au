@@ -13,13 +13,11 @@ include_once('inc/inc-home.php');
 		<div class="row wide-gutter-row">
 			<div class="lead-summary-section col-sm-8 wide-gutter-col">
 				<h2>For better, open government</h2>
-				<p>We are a network of individuals and organisations committed to
-helping governments work better by promoting transparency, open government,
-public participation, deliberation and accountability.
-Formed following the Australian Government’s decision to join the Open
-Government Partnership, we support this goal through information-sharing and
-working cooperatively to help government set and meet ambitious and achievable
-open government reforms.</p>
+				<p>Across the globe civil society networks are using
+the Open Government Partnership process to achieve real gains in openness,
+accountability and participation.
+We are a diverse civil society coalition working together to create
+ambitious commitments for Australia’s first OGP National Action Plan.</p>
 				<a href="/about" class="lead-summary-link btn btn-primary">Read more</a>
 			</div>
 			<div class="col-sm-4 wide-gutter-col pm-letter-section">
