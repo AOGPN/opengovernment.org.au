@@ -16,8 +16,8 @@ include_once('inc/inc-home.php');
 				<p>Civil society groups around the world are using
 the Open Government Partnership process to achieve real gains in openness,
 accountability and participation.
-We are a diverse civil society coalition working together to create
-ambitious commitments for Australia’s first OGP National Action Plan.</p>
+We are a diverse group of individuals and organisations working together to create
+ambitious commitments for Australia’s first Open Government National Action Plan.</p>
 				<a href="/about" class="lead-summary-link btn btn-primary">Read more</a>
 			</div>
 			<div class="col-sm-4 wide-gutter-col pm-letter-section">
