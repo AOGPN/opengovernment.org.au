@@ -34,51 +34,6 @@ the OGP renewing Australia’s commitment to membership.</p>
 		</div>
 	</div><!-- #home-introduction -->
 
-	<?php if( have_rows('country_tabs') ): ?>
-	<div class="band" id="home-latest-activity">
-		<div class="lead-summary-section">
-			<h2>Working Groups</h2>
-			<p>
-				Join a thematic working group in your area of interest. Help create
-				ambitious commitments for Australia's first Open Government Partnership
-				National Action Plan.
-			</p>
-		</div>
-
-		<div role="tabpanel">
-			<!-- Nav tabs -->
-			<?php if( have_rows('country_tabs') ) : $i = 0; ?>
-			<ul class="nav nav-tabs" role="tablist">
-				<?php while ( have_rows('country_tabs') ) : the_row(); $term = get_term( get_sub_field('country'), 'countries' ); ?>
-				<li role="presentation" <?php if ($i == 0) : ?>class="active"<?php endif ?>><a href="#<?= $term->slug?>" aria-controls="<?= $term->slug ?>" role="tab" data-toggle="tab"><?= $term->name ?></a></li>
-				<?php $i++; endwhile ?>
-			</ul><!--.nav-->
-			<?php endif; wp_reset_postdata(); ?>
-
-			<?php if( have_rows('country_tabs') ) : $i = 0; ?>
-			<!-- Tab content -->
-			<div class="tab-content">
-				<?php while ( have_rows('country_tabs') ) : the_row(); $term = get_term( get_sub_field('country'), 'countries' ); ?>
-				<!-- Tab pane -->
-				<div role="tabpanel" class="tab-pane <?php if ($i == 0) : ?>active<?php endif ?>" id="<?php echo $term->slug ?>">
-					<div class="row wide-gutter-row">
-						<div class="wide-gutter-col lead-summary-section">
-							<h3><?php echo $term->name ?></h3>
-							<p><?php echo get_sub_field('intro_text') ?></p>
-							<?php if (get_sub_field('link')) : ?>
-							<p><a href="<?php echo get_sub_field('link') ?>" class="btn btn-primary">Read more</a></p>
-							<?php endif ?>
-						</div>
-					</div>
-				</div><!--.tabpanel-->
-				<?php $i++; endwhile ?>
-			</div><!--.tab-content-->
-			<?php endif ?>
-
-		</div><!--.tabpanel-->
-	</div><!--.home-latest-activity-->
-	<?php endif ?>
-
 	<?php if( have_rows('featured_text') ): ?>
 	<div class="band" id="home-features">
 		<div class="bg-red home-features">
