@@ -9,6 +9,29 @@ include_once('inc/inc-home.php');
 
 <div class="container">
 
+  <?php
+    /* Hardcoded page id :S */
+    $args = array(
+      'p' => 2900,
+      'post_type' => 'page'
+    );
+    $my_query = new WP_query( $args );
+    while ( $my_query->have_posts() ) : $my_query->the_post();
+  ?>
+	<div class="band" id="draft-plan-released">
+		<div class="row wide-gutter-row">
+			<div class="col-sm-12 wide-gutter-col">
+      <h2><?php the_title(); ?></h2>
+      <?php the_content(); ?>
+      </div>
+    </div>
+  </div>
+  <?php
+    endwhile;
+    // reset post data (important!)
+    wp_reset_postdata();
+  ?>
+
 	<div class="band" id="home-introduction">
 		<div class="row wide-gutter-row">
 			<div class="lead-summary-section col-sm-8 wide-gutter-col">
@@ -33,29 +56,6 @@ the OGP renewing Australia’s commitment to membership.</p>
 			</div>
 		</div>
 	</div><!-- #home-introduction -->
-
-  <?php
-    /* Hardcoded page id :S */ 
-    $args = array(
-      'p' => 2900,
-      'post_type' => 'page'
-    );
-    $my_query = new WP_query( $args );
-    while ( $my_query->have_posts() ) : $my_query->the_post();
-  ?>
-	<div class="band" id="draft-plan-released">
-		<div class="row wide-gutter-row">
-			<div class="col-sm-12 wide-gutter-col">
-      <h2><?php the_title(); ?></h2>
-      <?php the_content(); ?>
-      </div>
-    </div>
-  </div>
-  <?php
-    endwhile;
-    // reset post data (important!)
-    wp_reset_postdata();
-  ?>
 
 	<?php if( have_rows('featured_text') ): ?>
 	<div class="band" id="home-features">
