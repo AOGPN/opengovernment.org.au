@@ -9,6 +9,13 @@
 				<h1 class="page-heading"><?php single_post_title(); ?></h1>
 				<?php the_content() ?>
 			</div>
+
+			<?php // If comments are open or we have at least one comment, load up the comment template.
+			if ( comments_open() || get_comments_number() ) :
+				comments_template();
+			endif;
+			?>
+
 		</div>
 	</div>
 
